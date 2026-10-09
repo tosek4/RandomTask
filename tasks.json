@@ -1,0 +1,17 @@
+{
+  "Developer": [
+    { "title": "Build a CLI to-do app", "description": "Pick a language you don't know yet and ship add, list and done commands.", "time": "A weekend" },
+    { "title": "URL shortener with an API", "description": "Two endpoints, one small database, and a redirect that works.", "time": "A weekend" },
+    { "title": "File renamer script", "description": "Rename a messy photo folder by date taken, with a dry-run flag.", "time": "2 hours" }
+  ],
+  "Electronics": [
+    { "title": "555 timer LED blinker", "description": "Build it on a breadboard and change the blink rate with a potentiometer.", "time": "2 hours" },
+    { "title": "Arduino temperature display", "description": "Read a sensor and show the value on an LCD or serial plotter.", "time": "A weekend" },
+    { "title": "Voltage divider check", "description": "Design one for 3.3V from 9V and verify it with a multimeter.", "time": "1 hour" }
+  ],
+  "Chemistry": [
+    { "title": "Grow salt crystals", "description": "Make a saturated solution and compare cooling speeds.", "time": "A weekend" },
+    { "title": "Cabbage pH scale", "description": "Test 5 household liquids with red cabbage indicator and rank them.", "time": "1 hour" },
+    { "title": "Simple electrolysis cell", "description": "Split water with a 9V battery and measure the gas ratio.", "time": "2 hours" }
+  ]
+}

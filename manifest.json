@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Random Task",
+  "version": "1.1",
+  "description": "Pick your field and get a fresh AI-generated project or task.",
+  "action": { "default_title": "Get a task" },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.anthropic.com/*"]
+}

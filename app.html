@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random Task</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <main>
+    <aside>
+      <h1>Random Task</h1>
+      <p class="sub">Pick your field, get something to build or try.</p>
+      <div id="chips" role="radiogroup" aria-label="Field"></div>
+      <label class="own">Another field
+        <input id="custom" placeholder="e.g. Mechanical, Biology, Music">
+      </label>
+      <label>Effort
+        <select id="effort">
+          <option>Any</option><option>1 hour</option><option>A weekend</option><option>A week</option>
+        </select>
+      </label>
+      <button class="link" id="settings">AI settings</button>
+    </aside>
+
+    <section id="stage">
+      <p id="source" class="source"></p>
+      <h2 id="title">Choose a field, then press the button.</h2>
+      <p id="desc"></p>
+      <ol id="steps"></ol>
+      <div class="row">
+        <button id="go" class="primary">Give me a task</button>
+        <button id="save" class="ghost" hidden>Save</button>
+      </div>
+      <p id="msg" role="status"></p>
+    </section>
+  </main>
+
+  <dialog id="dlg">
+    <form method="dialog">
+      <h3>AI settings</h3>
+      <p>Paste your Anthropic API key to get a new task every time. It stays in this browser. Without a key the app uses the built-in list.</p>
+      <input id="key" type="password" placeholder="sk-ant-...">
+      <div class="row"><button value="save" class="primary">Save</button><button value="cancel" class="ghost">Close</button></div>
+    </form>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>
